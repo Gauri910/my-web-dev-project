@@ -1,0 +1,43 @@
+nav{
+
+  background-color: #e4bad4;
+}
+a , nav-item{
+  color:black;
+}
+body{
+background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box1{
+        border: 3px solid rgb(129, 129, 129);
+        margin-left: 22%;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        height: 50%;
+        width: 50%;
+        padding: 20px;
+        background-color: rgb(236, 238, 238);
+        border-radius: 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+}
+h1{
+  text-align: center;
+      
+}
+form{
+    margin: 50px;
+}
+label{
+   margin-top: 20px;
+   }
+input{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+input::selection{
+    border-color: blue;
+}
